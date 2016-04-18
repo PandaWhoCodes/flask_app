@@ -35,6 +35,5 @@ class TestApp(unittest.TestCase):
         self.assertEqual(rv.status_code, 200)
         rv.close()
 
-
 if __name__ == '__main__':
     unittest.main()
