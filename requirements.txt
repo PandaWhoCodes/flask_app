@@ -13,7 +13,6 @@ mock
 # ----------------------
 # Production Server
 # ----------------------
-gunicorn
 Flask-SQLAlchemy==2.1
 gunicorn==19.4.1
 itsdangerous==0.24
